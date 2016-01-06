@@ -1,0 +1,5210 @@
+[
+  {
+    "alpha2": "AW",
+    "alpha3": "ABW",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Oranjestad",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Aruba",
+    "population": 103889,
+    "population_year": 2015
+  },
+  {
+    "alpha2": "AF",
+    "alpha3": "AFG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kabul",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "20038",
+    "gdp_year": 2014,
+    "name": "Afghanistan",
+    "population": 32526562,
+    "population_year": 2015
+  },
+  {
+    "alpha2": "AO",
+    "alpha3": "AGO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Luanda",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "138357",
+    "gdp_year": 2014,
+    "name": "Angola",
+    "population": 25021974,
+    "population_year": 2015
+  },
+  {
+    "alpha2": "AI",
+    "alpha3": "AIA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "The Valley",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Anguilla",
+    "population": 14614,
+    "population_year": 2015
+  },
+  {
+    "alpha2": "AX",
+    "alpha3": "ALA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Mariehamn",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "\u00c5land Islands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AL",
+    "alpha3": "ALB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tirana",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "13212",
+    "gdp_year": 2014,
+    "name": "Albania",
+    "population": 2896679,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AD",
+    "alpha3": "AND",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Andorra la Vella",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Andorra",
+    "population": 70473,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AE",
+    "alpha3": "ARE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Abu Dhabi",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "399451",
+    "gdp_year": 2014,
+    "name": "United Arab Emirates",
+    "population": 9156963,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AR",
+    "alpha3": "ARG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Buenos Aires",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "537660",
+    "gdp_year": 2014,
+    "name": "Argentina",
+    "population": 43416755,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AM",
+    "alpha3": "ARM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Yerevan",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "11644",
+    "gdp_year": 2014,
+    "name": "Armenia",
+    "population": 3017712,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AS",
+    "alpha3": "ASM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Pago Pago",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "American Samoa",
+    "population": 55538,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AQ",
+    "alpha3": "ATA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Antarctica",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TF",
+    "alpha3": "ATF",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Port-aux-Fran\u00e7ais",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "French Southern and Antarctic Lands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AG",
+    "alpha3": "ATG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Saint John's",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1221",
+    "gdp_year": 2014,
+    "name": "Antigua and Barbuda",
+    "population": 91818,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AU",
+    "alpha3": "AUS",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Canberra",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1454675",
+    "gdp_year": 2014,
+    "name": "Australia",
+    "population": 23968973,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AT",
+    "alpha3": "AUT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Vienna",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "436888",
+    "gdp_year": 2014,
+    "name": "Austria",
+    "population": 8544586,
+    "population_year": 0
+  },
+  {
+    "alpha2": "AZ",
+    "alpha3": "AZE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Baku",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "75198",
+    "gdp_year": 2014,
+    "name": "Azerbaijan",
+    "population": 9753968,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BI",
+    "alpha3": "BDI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bujumbura",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "3094",
+    "gdp_year": 2014,
+    "name": "Burundi",
+    "population": 11178921,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BE",
+    "alpha3": "BEL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Brussels",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "531547",
+    "gdp_year": 2014,
+    "name": "Belgium",
+    "population": 11299192,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BJ",
+    "alpha3": "BEN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Porto-Novo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "9575",
+    "gdp_year": 2014,
+    "name": "Benin",
+    "population": 10879829,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BF",
+    "alpha3": "BFA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ouagadougou",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "12542",
+    "gdp_year": 2014,
+    "name": "Burkina Faso",
+    "population": 18105570,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BD",
+    "alpha3": "BGD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Dhaka",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "172887",
+    "gdp_year": 2014,
+    "name": "Bangladesh",
+    "population": 160995642,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BG",
+    "alpha3": "BGR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Sofia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "56717",
+    "gdp_year": 2014,
+    "name": "Bulgaria",
+    "population": 7149787,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BH",
+    "alpha3": "BHR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Manama",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "33851",
+    "gdp_year": 2014,
+    "name": "Bahrain",
+    "population": 1377237,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BS",
+    "alpha3": "BHS",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Nassau",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "8511",
+    "gdp_year": 2014,
+    "name": "Bahamas",
+    "population": 388019,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BA",
+    "alpha3": "BIH",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Sarajevo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "18286",
+    "gdp_year": 2014,
+    "name": "Bosnia and Herzegovina",
+    "population": 3810416,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BL",
+    "alpha3": "BLM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Gustavia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Saint Barth\u00e9lemy",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BY",
+    "alpha3": "BLR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Minsk",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "76139",
+    "gdp_year": 2014,
+    "name": "Belarus",
+    "population": 9495826,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BZ",
+    "alpha3": "BLZ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Belmopan",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1699",
+    "gdp_year": 2014,
+    "name": "Belize",
+    "population": 359287,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BM",
+    "alpha3": "BMU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Hamilton",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "5574",
+    "gdp_year": 2014,
+    "name": "Bermuda",
+    "population": 62004,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BO",
+    "alpha3": "BOL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Sucre",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "32996",
+    "gdp_year": 2014,
+    "name": "Bolivia",
+    "population": 10724705,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BR",
+    "alpha3": "BRA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bras\u00edlia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2346076",
+    "gdp_year": 2014,
+    "name": "Brazil",
+    "population": 207847528,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BB",
+    "alpha3": "BRB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bridgetown",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4355",
+    "gdp_year": 2014,
+    "name": "Barbados",
+    "population": 284215,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BN",
+    "alpha3": "BRN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bandar Seri Begawan",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "17105",
+    "gdp_year": 2014,
+    "name": "Brunei",
+    "population": 423188,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BT",
+    "alpha3": "BTN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Thimphu",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1959",
+    "gdp_year": 2014,
+    "name": "Bhutan",
+    "population": 774830,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BV",
+    "alpha3": "BVT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Bouvet Island",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "BW",
+    "alpha3": "BWA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Gaborone",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "15813",
+    "gdp_year": 2014,
+    "name": "Botswana",
+    "population": 2262485,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CF",
+    "alpha3": "CAF",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bangui",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1723",
+    "gdp_year": 2014,
+    "name": "Central African Republic",
+    "population": 4900274,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CA",
+    "alpha3": "CAN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ottawa",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1785387",
+    "gdp_year": 2014,
+    "name": "Canada",
+    "population": 35939927,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CC",
+    "alpha3": "CCK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "West Island",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Cocos (Keeling) Islands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CH",
+    "alpha3": "CHE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bern",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "701037",
+    "gdp_year": 2014,
+    "name": "Switzerland",
+    "population": 8298663,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CL",
+    "alpha3": "CHL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Santiago",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "258062",
+    "gdp_year": 2014,
+    "name": "Chile",
+    "population": 17948141,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CN",
+    "alpha3": "CHN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Beijing",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "10354832",
+    "gdp_year": 2014,
+    "name": "China",
+    "population": 1376048943,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CI",
+    "alpha3": "CIV",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Yamoussoukro",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "34254",
+    "gdp_year": 2014,
+    "name": "Ivory Coast",
+    "population": 22701556,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CM",
+    "alpha3": "CMR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Yaound\u00e9",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "32051",
+    "gdp_year": 2014,
+    "name": "Cameroon",
+    "population": 23344179,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CD",
+    "alpha3": "COD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kinshasa",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "DR Congo",
+    "population": 77266814,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CG",
+    "alpha3": "COG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Brazzaville",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "14177",
+    "gdp_year": 2014,
+    "name": "Republic of the Congo",
+    "population": 4620330,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CK",
+    "alpha3": "COK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Avarua",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Cook Islands",
+    "population": 20833,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CO",
+    "alpha3": "COL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bogot\u00e1",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "377740",
+    "gdp_year": 2014,
+    "name": "Colombia",
+    "population": 48228704,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KM",
+    "alpha3": "COM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Moroni",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "624",
+    "gdp_year": 2014,
+    "name": "Comoros",
+    "population": 788474,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CV",
+    "alpha3": "CPV",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Praia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1871",
+    "gdp_year": 2014,
+    "name": "Cape Verde",
+    "population": 520501,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CR",
+    "alpha3": "CRI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "San Jos\u00e9",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "49553",
+    "gdp_year": 2014,
+    "name": "Costa Rica",
+    "population": 4807850,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CU",
+    "alpha3": "CUB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Havana",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "77150",
+    "gdp_year": 2014,
+    "name": "Cuba",
+    "population": 11389562,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CW",
+    "alpha3": "CUW",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Willemstad",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Cura\u00e7ao",
+    "population": 157203,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CX",
+    "alpha3": "CXR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Flying Fish Cove",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Christmas Island",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KY",
+    "alpha3": "CYM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "George Town",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Cayman Islands",
+    "population": 59967,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CY",
+    "alpha3": "CYP",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Nicosia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "23226",
+    "gdp_year": 2014,
+    "name": "Cyprus",
+    "population": 1165300,
+    "population_year": 0
+  },
+  {
+    "alpha2": "CZ",
+    "alpha3": "CZE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Prague",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "205270",
+    "gdp_year": 2014,
+    "name": "Czech Republic",
+    "population": 10543186,
+    "population_year": 0
+  },
+  {
+    "alpha2": "DE",
+    "alpha3": "DEU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Berlin",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "3868291",
+    "gdp_year": 2014,
+    "name": "Germany",
+    "population": 80688545,
+    "population_year": 0
+  },
+  {
+    "alpha2": "DJ",
+    "alpha3": "DJI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Djibouti",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1589",
+    "gdp_year": 2014,
+    "name": "Djibouti",
+    "population": 887861,
+    "population_year": 0
+  },
+  {
+    "alpha2": "DM",
+    "alpha3": "DMA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Roseau",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "524",
+    "gdp_year": 2014,
+    "name": "Dominica",
+    "population": 72680,
+    "population_year": 0
+  },
+  {
+    "alpha2": "DK",
+    "alpha3": "DNK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Copenhagen",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "342362",
+    "gdp_year": 2014,
+    "name": "Denmark",
+    "population": 5669081,
+    "population_year": 0
+  },
+  {
+    "alpha2": "DO",
+    "alpha3": "DOM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Santo Domingo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "64138",
+    "gdp_year": 2014,
+    "name": "Dominican Republic",
+    "population": 10528391,
+    "population_year": 0
+  },
+  {
+    "alpha2": "DZ",
+    "alpha3": "DZA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Algiers",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "213518",
+    "gdp_year": 2014,
+    "name": "Algeria",
+    "population": 39666519,
+    "population_year": 0
+  },
+  {
+    "alpha2": "EC",
+    "alpha3": "ECU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Quito",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "100917",
+    "gdp_year": 2014,
+    "name": "Ecuador",
+    "population": 16144363,
+    "population_year": 0
+  },
+  {
+    "alpha2": "EG",
+    "alpha3": "EGY",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Cairo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "286538",
+    "gdp_year": 2014,
+    "name": "Egypt",
+    "population": 91508084,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ER",
+    "alpha3": "ERI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Asmara",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Eritrea",
+    "population": 5227791,
+    "population_year": 0
+  },
+  {
+    "alpha2": "EH",
+    "alpha3": "ESH",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "El Aai\u00fan",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Western Sahara",
+    "population": 572540,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ES",
+    "alpha3": "ESP",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Madrid",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1381342",
+    "gdp_year": 2014,
+    "name": "Spain",
+    "population": 46121699,
+    "population_year": 0
+  },
+  {
+    "alpha2": "EE",
+    "alpha3": "EST",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tallinn",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "26485",
+    "gdp_year": 2014,
+    "name": "Estonia",
+    "population": 1312558,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ET",
+    "alpha3": "ETH",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Addis Ababa",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "55612",
+    "gdp_year": 2014,
+    "name": "Ethiopia",
+    "population": 99390750,
+    "population_year": 0
+  },
+  {
+    "alpha2": "FI",
+    "alpha3": "FIN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Helsinki",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "272217",
+    "gdp_year": 2014,
+    "name": "Finland",
+    "population": 5503457,
+    "population_year": 0
+  },
+  {
+    "alpha2": "FJ",
+    "alpha3": "FJI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Suva",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4532",
+    "gdp_year": 2014,
+    "name": "Fiji",
+    "population": 892145,
+    "population_year": 0
+  },
+  {
+    "alpha2": "FK",
+    "alpha3": "FLK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Stanley",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Falkland Islands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Paris",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2829192",
+    "gdp_year": 2014,
+    "name": "France",
+    "population": 64395345,
+    "population_year": 0
+  },
+  {
+    "alpha2": "FO",
+    "alpha3": "FRO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "T\u00f3rshavn",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2613",
+    "gdp_year": 2014,
+    "name": "Faroe Islands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "FM",
+    "alpha3": "FSM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Palikir",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "318",
+    "gdp_year": 2014,
+    "name": "Micronesia",
+    "population": 526344,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GA",
+    "alpha3": "GAB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Libreville",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "18180",
+    "gdp_year": 2014,
+    "name": "Gabon",
+    "population": 1725292,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GB",
+    "alpha3": "GBR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "London",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2988893",
+    "gdp_year": 2014,
+    "name": "United Kingdom",
+    "population": 64715810,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GE",
+    "alpha3": "GEO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tbilisi",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "16530",
+    "gdp_year": 2014,
+    "name": "Georgia",
+    "population": 3999812,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GG",
+    "alpha3": "GGY",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "St. Peter Port",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Guernsey",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GH",
+    "alpha3": "GHA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Accra",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "38617",
+    "gdp_year": 2014,
+    "name": "Ghana",
+    "population": 27409893,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GI",
+    "alpha3": "GIB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Gibraltar",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Gibraltar",
+    "population": 32217,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GN",
+    "alpha3": "GIN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Conakry",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "6624",
+    "gdp_year": 2014,
+    "name": "Guinea",
+    "population": 12608590,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GP",
+    "alpha3": "GLP",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Basse-Terre",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Guadeloupe",
+    "population": 468450,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GM",
+    "alpha3": "GMB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Banjul",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "904",
+    "gdp_year": 2014,
+    "name": "Gambia",
+    "population": 1990924,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GW",
+    "alpha3": "GNB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bissau",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1022",
+    "gdp_year": 2014,
+    "name": "Guinea-Bissau",
+    "population": 1844325,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GQ",
+    "alpha3": "GNQ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Malabo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "15530",
+    "gdp_year": 2014,
+    "name": "Equatorial Guinea",
+    "population": 845060,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GR",
+    "alpha3": "GRC",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Athens",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "235574",
+    "gdp_year": 2014,
+    "name": "Greece",
+    "population": 10954617,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GD",
+    "alpha3": "GRD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "St. George's",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "912",
+    "gdp_year": 2014,
+    "name": "Grenada",
+    "population": 106825,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GL",
+    "alpha3": "GRL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Nuuk",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Greenland",
+    "population": 56186,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GT",
+    "alpha3": "GTM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Guatemala City",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "58827",
+    "gdp_year": 2014,
+    "name": "Guatemala",
+    "population": 16342897,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GF",
+    "alpha3": "GUF",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Cayenne",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "French Guiana",
+    "population": 268606,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GU",
+    "alpha3": "GUM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Hag\u00e5t\u00f1a",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Guam",
+    "population": 169885,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GY",
+    "alpha3": "GUY",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Georgetown",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "3097",
+    "gdp_year": 2014,
+    "name": "Guyana",
+    "population": 767085,
+    "population_year": 0
+  },
+  {
+    "alpha2": "HK",
+    "alpha3": "HKG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "City of Victoria",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "290896",
+    "gdp_year": 2014,
+    "name": "Hong Kong",
+    "population": 7287983,
+    "population_year": 0
+  },
+  {
+    "alpha2": "HM",
+    "alpha3": "HMD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Heard Island and McDonald Islands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "HN",
+    "alpha3": "HND",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tegucigalpa",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "19385",
+    "gdp_year": 2014,
+    "name": "Honduras",
+    "population": 8075060,
+    "population_year": 0
+  },
+  {
+    "alpha2": "HR",
+    "alpha3": "HRV",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Zagreb",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "57113",
+    "gdp_year": 2014,
+    "name": "Croatia",
+    "population": 4240317,
+    "population_year": 0
+  },
+  {
+    "alpha2": "HT",
+    "alpha3": "HTI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Port-au-Prince",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "8713",
+    "gdp_year": 2014,
+    "name": "Haiti",
+    "population": 10711067,
+    "population_year": 0
+  },
+  {
+    "alpha2": "HU",
+    "alpha3": "HUN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Budapest",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "138347",
+    "gdp_year": 2014,
+    "name": "Hungary",
+    "population": 9855023,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ID",
+    "alpha3": "IDN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Jakarta",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "888538",
+    "gdp_year": 2014,
+    "name": "Indonesia",
+    "population": 257563815,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IM",
+    "alpha3": "IMN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Douglas",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Isle of Man",
+    "population": 87780,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IN",
+    "alpha3": "IND",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "New Delhi",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2048517",
+    "gdp_year": 2014,
+    "name": "India",
+    "population": 1311050527,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IO",
+    "alpha3": "IOT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Diego Garcia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "British Indian Ocean Territory",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IE",
+    "alpha3": "IRL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Dublin",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "250814",
+    "gdp_year": 2014,
+    "name": "Ireland",
+    "population": 4688465,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IR",
+    "alpha3": "IRN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tehran",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "425326",
+    "gdp_year": 2014,
+    "name": "Iran",
+    "population": 79109272,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IQ",
+    "alpha3": "IRQ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Baghdad",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "223508",
+    "gdp_year": 2014,
+    "name": "Iraq",
+    "population": 36423395,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IS",
+    "alpha3": "ISL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Reykjavik",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "17036",
+    "gdp_year": 2014,
+    "name": "Iceland",
+    "population": 329425,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IL",
+    "alpha3": "ISR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Jerusalem",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "305675",
+    "gdp_year": 2014,
+    "name": "Israel",
+    "population": 8064036,
+    "population_year": 0
+  },
+  {
+    "alpha2": "IT",
+    "alpha3": "ITA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Rome",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2141161",
+    "gdp_year": 2014,
+    "name": "Italy",
+    "population": 59797685,
+    "population_year": 0
+  },
+  {
+    "alpha2": "JM",
+    "alpha3": "JAM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kingston",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "13891",
+    "gdp_year": 2014,
+    "name": "Jamaica",
+    "population": 2793335,
+    "population_year": 0
+  },
+  {
+    "alpha2": "JE",
+    "alpha3": "JEY",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Saint Helier",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Jersey",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "JO",
+    "alpha3": "JOR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Amman",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "35827",
+    "gdp_year": 2014,
+    "name": "Jordan",
+    "population": 7594547,
+    "population_year": 0
+  },
+  {
+    "alpha2": "JP",
+    "alpha3": "JPN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tokyo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4601461",
+    "gdp_year": 2014,
+    "name": "Japan",
+    "population": 126573481,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KZ",
+    "alpha3": "KAZ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Astana",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "217872",
+    "gdp_year": 2014,
+    "name": "Kazakhstan",
+    "population": 17625226,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KE",
+    "alpha3": "KEN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Nairobi",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "60937",
+    "gdp_year": 2014,
+    "name": "Kenya",
+    "population": 46050302,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KG",
+    "alpha3": "KGZ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bishkek",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "7404",
+    "gdp_year": 2014,
+    "name": "Kyrgyzstan",
+    "population": 5939962,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KH",
+    "alpha3": "KHM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Phnom Penh",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "16778",
+    "gdp_year": 2014,
+    "name": "Cambodia",
+    "population": 15577899,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KI",
+    "alpha3": "KIR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "South Tarawa",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "167",
+    "gdp_year": 2014,
+    "name": "Kiribati",
+    "population": 112423,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KN",
+    "alpha3": "KNA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Basseterre",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "852",
+    "gdp_year": 2014,
+    "name": "Saint Kitts and Nevis",
+    "population": 55572,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KR",
+    "alpha3": "KOR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Seoul",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1410383",
+    "gdp_year": 2014,
+    "name": "South Korea",
+    "population": 50293439,
+    "population_year": 0
+  },
+  {
+    "alpha2": "XK",
+    "alpha3": "UNK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Pristina",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Kosovo",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KW",
+    "alpha3": "KWT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kuwait City",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "163612",
+    "gdp_year": 2014,
+    "name": "Kuwait",
+    "population": 3892115,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LA",
+    "alpha3": "LAO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Vientiane",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "11997",
+    "gdp_year": 2014,
+    "name": "Laos",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LB",
+    "alpha3": "LBN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Beirut",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "45731",
+    "gdp_year": 2014,
+    "name": "Lebanon",
+    "population": 5850743,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LR",
+    "alpha3": "LBR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Monrovia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2013",
+    "gdp_year": 2014,
+    "name": "Liberia",
+    "population": 4503438,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LY",
+    "alpha3": "LBY",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tripoli",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "41143",
+    "gdp_year": 2014,
+    "name": "Libya",
+    "population": 6278438,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LC",
+    "alpha3": "LCA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Castries",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1404",
+    "gdp_year": 2014,
+    "name": "Saint Lucia",
+    "population": 184999,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LI",
+    "alpha3": "LIE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Vaduz",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "5488",
+    "gdp_year": 2014,
+    "name": "Liechtenstein",
+    "population": 37531,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LK",
+    "alpha3": "LKA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Colombo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "78824",
+    "gdp_year": 2014,
+    "name": "Sri Lanka",
+    "population": 20715010,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LS",
+    "alpha3": "LSO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Maseru",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "2181",
+    "gdp_year": 2014,
+    "name": "Lesotho",
+    "population": 2135022,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LT",
+    "alpha3": "LTU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Vilnius",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "48354",
+    "gdp_year": 2014,
+    "name": "Lithuania",
+    "population": 2878405,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LU",
+    "alpha3": "LUX",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Luxembourg",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "64874",
+    "gdp_year": 2014,
+    "name": "Luxembourg",
+    "population": 567110,
+    "population_year": 0
+  },
+  {
+    "alpha2": "LV",
+    "alpha3": "LVA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Riga",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "31287",
+    "gdp_year": 2014,
+    "name": "Latvia",
+    "population": 1970503,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MO",
+    "alpha3": "MAC",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "55502",
+    "gdp_year": 2014,
+    "name": "Macau",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MF",
+    "alpha3": "MAF",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Marigot",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Saint Martin",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MA",
+    "alpha3": "MAR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Rabat",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "110009",
+    "gdp_year": 2014,
+    "name": "Morocco",
+    "population": 34377511,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MC",
+    "alpha3": "MCO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Monaco",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Monaco",
+    "population": 37731,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MD",
+    "alpha3": "MDA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Chi\u0219in\u0103u",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "7962",
+    "gdp_year": 2014,
+    "name": "Moldova",
+    "population": 4068897,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MG",
+    "alpha3": "MDG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Antananarivo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "10593",
+    "gdp_year": 2014,
+    "name": "Madagascar",
+    "population": 24235390,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MV",
+    "alpha3": "MDV",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Mal\u00e9",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "3062",
+    "gdp_year": 2014,
+    "name": "Maldives",
+    "population": 363657,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MX",
+    "alpha3": "MEX",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Mexico City",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1294690",
+    "gdp_year": 2014,
+    "name": "Mexico",
+    "population": 127017224,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MH",
+    "alpha3": "MHL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Majuro",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "187",
+    "gdp_year": 2014,
+    "name": "Marshall Islands",
+    "population": 52993,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MK",
+    "alpha3": "MKD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Skopje",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "11324",
+    "gdp_year": 2014,
+    "name": "Macedonia",
+    "population": 2078453,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ML",
+    "alpha3": "MLI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bamako",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "12037",
+    "gdp_year": 2014,
+    "name": "Mali",
+    "population": 17599694,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MT",
+    "alpha3": "MLT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Valletta",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "9643",
+    "gdp_year": 2014,
+    "name": "Malta",
+    "population": 418670,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MM",
+    "alpha3": "MMR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Naypyidaw",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "64330",
+    "gdp_year": 2014,
+    "name": "Myanmar",
+    "population": 53897154,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ME",
+    "alpha3": "MNE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Podgorica",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4588",
+    "gdp_year": 2014,
+    "name": "Montenegro",
+    "population": 625781,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MN",
+    "alpha3": "MNG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ulan Bator",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "12016",
+    "gdp_year": 2014,
+    "name": "Mongolia",
+    "population": 2959134,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MP",
+    "alpha3": "MNP",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Saipan",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Northern Mariana Islands",
+    "population": 55070,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MZ",
+    "alpha3": "MOZ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Maputo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "15938",
+    "gdp_year": 2014,
+    "name": "Mozambique",
+    "population": 27977863,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MR",
+    "alpha3": "MRT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Nouakchott",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "5061",
+    "gdp_year": 2014,
+    "name": "Mauritania",
+    "population": 4067564,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MS",
+    "alpha3": "MSR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Plymouth",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Montserrat",
+    "population": 5125,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MQ",
+    "alpha3": "MTQ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Fort-de-France",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Martinique",
+    "population": 396425,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MU",
+    "alpha3": "MUS",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Port Louis",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "12630",
+    "gdp_year": 2014,
+    "name": "Mauritius",
+    "population": 1273212,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MW",
+    "alpha3": "MWI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Lilongwe",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4258",
+    "gdp_year": 2014,
+    "name": "Malawi",
+    "population": 17215232,
+    "population_year": 0
+  },
+  {
+    "alpha2": "MY",
+    "alpha3": "MYS",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kuala Lumpur",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "338104",
+    "gdp_year": 2014,
+    "name": "Malaysia",
+    "population": 30331007,
+    "population_year": 0
+  },
+  {
+    "alpha2": "YT",
+    "alpha3": "MYT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Mamoudzou",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Mayotte",
+    "population": 240015,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NA",
+    "alpha3": "NAM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Windhoek",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "12995",
+    "gdp_year": 2014,
+    "name": "Namibia",
+    "population": 2458830,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NC",
+    "alpha3": "NCL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Noum\u00e9a",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "New Caledonia",
+    "population": 263118,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NE",
+    "alpha3": "NER",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Niamey",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "8169",
+    "gdp_year": 2014,
+    "name": "Niger",
+    "population": 19899120,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NF",
+    "alpha3": "NFK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kingston",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Norfolk Island",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NG",
+    "alpha3": "NGA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Abuja",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "568508",
+    "gdp_year": 2014,
+    "name": "Nigeria",
+    "population": 182201962,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NI",
+    "alpha3": "NIC",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Managua",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "11806",
+    "gdp_year": 2014,
+    "name": "Nicaragua",
+    "population": 6082032,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NU",
+    "alpha3": "NIU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Alofi",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Niue",
+    "population": 1610,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NL",
+    "alpha3": "NLD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Amsterdam",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "879319",
+    "gdp_year": 2014,
+    "name": "Netherlands",
+    "population": 16924929,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NO",
+    "alpha3": "NOR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Oslo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "499817",
+    "gdp_year": 2014,
+    "name": "Norway",
+    "population": 5210967,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NP",
+    "alpha3": "NPL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kathmandu",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "19770",
+    "gdp_year": 2014,
+    "name": "Nepal",
+    "population": 28513700,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NR",
+    "alpha3": "NRU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Yaren",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Nauru",
+    "population": 10222,
+    "population_year": 0
+  },
+  {
+    "alpha2": "NZ",
+    "alpha3": "NZL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Wellington",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "New Zealand",
+    "population": 4528526,
+    "population_year": 0
+  },
+  {
+    "alpha2": "OM",
+    "alpha3": "OMN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Muscat",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "81797",
+    "gdp_year": 2014,
+    "name": "Oman",
+    "population": 4490541,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PK",
+    "alpha3": "PAK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Islamabad",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "243632",
+    "gdp_year": 2014,
+    "name": "Pakistan",
+    "population": 188924874,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PA",
+    "alpha3": "PAN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Panama City",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "46213",
+    "gdp_year": 2014,
+    "name": "Panama",
+    "population": 3929141,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PN",
+    "alpha3": "PCN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Adamstown",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Pitcairn Islands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PE",
+    "alpha3": "PER",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Lima",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "202596",
+    "gdp_year": 2014,
+    "name": "Peru",
+    "population": 31376670,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PH",
+    "alpha3": "PHL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Manila",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "284777",
+    "gdp_year": 2014,
+    "name": "Philippines",
+    "population": 100699395,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PW",
+    "alpha3": "PLW",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ngerulmud",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "251",
+    "gdp_year": 2014,
+    "name": "Palau",
+    "population": 21291,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PG",
+    "alpha3": "PNG",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Port Moresby",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "16929",
+    "gdp_year": 2014,
+    "name": "Papua New Guinea",
+    "population": 7619321,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PL",
+    "alpha3": "POL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Warsaw",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "544967",
+    "gdp_year": 2014,
+    "name": "Poland",
+    "population": 38611794,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PR",
+    "alpha3": "PRI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "San Juan",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "103135",
+    "gdp_year": 2014,
+    "name": "Puerto Rico",
+    "population": 3683238,
+    "population_year": 0
+  },
+  {
+    "alpha2": "KP",
+    "alpha3": "PRK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Pyongyang",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "North Korea",
+    "population": 25155317,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PT",
+    "alpha3": "PRT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Lisbon",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "230117",
+    "gdp_year": 2014,
+    "name": "Portugal",
+    "population": 10349803,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PY",
+    "alpha3": "PRY",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Asunci\u00f3n",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "30881",
+    "gdp_year": 2014,
+    "name": "Paraguay",
+    "population": 6639123,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PS",
+    "alpha3": "PSE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ramallah",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Palestine",
+    "population": 4668466,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PF",
+    "alpha3": "PYF",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Papeet\u0113",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "French Polynesia",
+    "population": 282764,
+    "population_year": 0
+  },
+  {
+    "alpha2": "QA",
+    "alpha3": "QAT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Doha",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "210109",
+    "gdp_year": 2014,
+    "name": "Qatar",
+    "population": 2235355,
+    "population_year": 0
+  },
+  {
+    "alpha2": "RE",
+    "alpha3": "REU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Saint-Denis",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "R\u00e9union",
+    "population": 861154,
+    "population_year": 0
+  },
+  {
+    "alpha2": "RO",
+    "alpha3": "ROU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bucharest",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Romania",
+    "population": 19511324,
+    "population_year": 0
+  },
+  {
+    "alpha2": "RU",
+    "alpha3": "RUS",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Moscow",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1860598",
+    "gdp_year": 2014,
+    "name": "Russia",
+    "population": 143456918,
+    "population_year": 0
+  },
+  {
+    "alpha2": "RW",
+    "alpha3": "RWA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kigali",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "7890",
+    "gdp_year": 2014,
+    "name": "Rwanda",
+    "population": 11609666,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SA",
+    "alpha3": "SAU",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Riyadh",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "746249",
+    "gdp_year": 2014,
+    "name": "Saudi Arabia",
+    "population": 31540372,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SD",
+    "alpha3": "SDN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Khartoum",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "73815",
+    "gdp_year": 2014,
+    "name": "Sudan",
+    "population": 40234882,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SN",
+    "alpha3": "SEN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Dakar",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "15658",
+    "gdp_year": 2014,
+    "name": "Senegal",
+    "population": 15129273,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SG",
+    "alpha3": "SGP",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Singapore",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "307860",
+    "gdp_year": 2014,
+    "name": "Singapore",
+    "population": 5603740,
+    "population_year": 0
+  },
+  {
+    "alpha2": "GS",
+    "alpha3": "SGS",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "King Edward Point",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "South Georgia",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SJ",
+    "alpha3": "SJM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Longyearbyen",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Svalbard and Jan Mayen",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SB",
+    "alpha3": "SLB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Honiara",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1158",
+    "gdp_year": 2014,
+    "name": "Solomon Islands",
+    "population": 583591,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SL",
+    "alpha3": "SLE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Freetown",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4838",
+    "gdp_year": 2014,
+    "name": "Sierra Leone",
+    "population": 6453184,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SV",
+    "alpha3": "SLV",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "San Salvador",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "25164",
+    "gdp_year": 2014,
+    "name": "El Salvador",
+    "population": 6126583,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SM",
+    "alpha3": "SMR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "City of San Marino",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "San Marino",
+    "population": 31781,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SO",
+    "alpha3": "SOM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Mogadishu",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "5707",
+    "gdp_year": 2014,
+    "name": "Somalia",
+    "population": 10787104,
+    "population_year": 0
+  },
+  {
+    "alpha2": "PM",
+    "alpha3": "SPM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Saint-Pierre",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Saint Pierre and Miquelon",
+    "population": 6288,
+    "population_year": 0
+  },
+  {
+    "alpha2": "RS",
+    "alpha3": "SRB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Belgrade",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "43866",
+    "gdp_year": 2014,
+    "name": "Serbia",
+    "population": 8850975,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SS",
+    "alpha3": "SSD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Juba",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "13282",
+    "gdp_year": 2014,
+    "name": "South Sudan",
+    "population": 12339812,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ST",
+    "alpha3": "STP",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "S\u00e3o Tom\u00e9",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "337",
+    "gdp_year": 2014,
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SR",
+    "alpha3": "SUR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Paramaribo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "5210",
+    "gdp_year": 2014,
+    "name": "Suriname",
+    "population": 542975,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SK",
+    "alpha3": "SVK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bratislava",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "100249",
+    "gdp_year": 2014,
+    "name": "Slovakia",
+    "population": 5426258,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SI",
+    "alpha3": "SVN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ljubljana",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "49491",
+    "gdp_year": 2014,
+    "name": "Slovenia",
+    "population": 2067525,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SE",
+    "alpha3": "SWE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Stockholm",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "571090",
+    "gdp_year": 2014,
+    "name": "Sweden",
+    "population": 9779426,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SZ",
+    "alpha3": "SWZ",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Lobamba",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4413",
+    "gdp_year": 2014,
+    "name": "Swaziland",
+    "population": 1286970,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SX",
+    "alpha3": "SXM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Philipsburg",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Sint Maarten",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SC",
+    "alpha3": "SYC",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Victoria",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "1423",
+    "gdp_year": 2014,
+    "name": "Seychelles",
+    "population": 96471,
+    "population_year": 0
+  },
+  {
+    "alpha2": "SY",
+    "alpha3": "SYR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Damascus",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Syria",
+    "population": 18502413,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TC",
+    "alpha3": "TCA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Cockburn Town",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Turks and Caicos Islands",
+    "population": 34339,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TD",
+    "alpha3": "TCD",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "N'Djamena",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "13922",
+    "gdp_year": 2014,
+    "name": "Chad",
+    "population": 14037472,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TG",
+    "alpha3": "TGO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Lom\u00e9",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "4518",
+    "gdp_year": 2014,
+    "name": "Togo",
+    "population": 7304578,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TH",
+    "alpha3": "THA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Bangkok",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "404824",
+    "gdp_year": 2014,
+    "name": "Thailand",
+    "population": 67959359,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TJ",
+    "alpha3": "TJK",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Dushanbe",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "9242",
+    "gdp_year": 2014,
+    "name": "Tajikistan",
+    "population": 8481855,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TK",
+    "alpha3": "TKL",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Fakaofo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Tokelau",
+    "population": 1250,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TM",
+    "alpha3": "TKM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ashgabat",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "47932",
+    "gdp_year": 2014,
+    "name": "Turkmenistan",
+    "population": 5373502,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TL",
+    "alpha3": "TLS",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Dili",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Timor-Leste",
+    "population": 1184765,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TO",
+    "alpha3": "TON",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Nuku'alofa",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "434",
+    "gdp_year": 2014,
+    "name": "Tonga",
+    "population": 106170,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TT",
+    "alpha3": "TTO",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Port of Spain",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "28883",
+    "gdp_year": 2014,
+    "name": "Trinidad and Tobago",
+    "population": 1360088,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TN",
+    "alpha3": "TUN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tunis",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "48613",
+    "gdp_year": 2014,
+    "name": "Tunisia",
+    "population": 11253554,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TR",
+    "alpha3": "TUR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Ankara",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "798429",
+    "gdp_year": 2014,
+    "name": "Turkey",
+    "population": 78665830,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TV",
+    "alpha3": "TUV",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Funafuti",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "38",
+    "gdp_year": 2014,
+    "name": "Tuvalu",
+    "population": 9916,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TW",
+    "alpha3": "TWN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Taipei",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Taiwan",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "TZ",
+    "alpha3": "TZA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Dodoma",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "48057",
+    "gdp_year": 2014,
+    "name": "Tanzania",
+    "population": 53470420,
+    "population_year": 0
+  },
+  {
+    "alpha2": "UG",
+    "alpha3": "UGA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kampala",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "26998",
+    "gdp_year": 2014,
+    "name": "Uganda",
+    "population": 39032383,
+    "population_year": 0
+  },
+  {
+    "alpha2": "UA",
+    "alpha3": "UKR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kiev",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "131805",
+    "gdp_year": 2014,
+    "name": "Ukraine",
+    "population": 44823765,
+    "population_year": 0
+  },
+  {
+    "alpha2": "UM",
+    "alpha3": "UMI",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "United States Minor Outlying Islands",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "UY",
+    "alpha3": "URY",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Montevideo",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "57471",
+    "gdp_year": 2014,
+    "name": "Uruguay",
+    "population": 3431555,
+    "population_year": 0
+  },
+  {
+    "alpha2": "US",
+    "alpha3": "USA",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Washington D.C.",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "17419000",
+    "gdp_year": 2014,
+    "name": "United States",
+    "population": 321773631,
+    "population_year": 0
+  },
+  {
+    "alpha2": "UZ",
+    "alpha3": "UZB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Tashkent",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "62644",
+    "gdp_year": 2014,
+    "name": "Uzbekistan",
+    "population": 29893488,
+    "population_year": 0
+  },
+  {
+    "alpha2": "VA",
+    "alpha3": "VAT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Vatican City",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Vatican City",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "VC",
+    "alpha3": "VCT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Kingstown",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "729",
+    "gdp_year": 2014,
+    "name": "Saint Vincent and the Grenadines",
+    "population": 109462,
+    "population_year": 0
+  },
+  {
+    "alpha2": "VE",
+    "alpha3": "VEN",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Caracas",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "381286",
+    "gdp_year": 2014,
+    "name": "Venezuela",
+    "population": 31108083,
+    "population_year": 0
+  },
+  {
+    "alpha2": "VG",
+    "alpha3": "VGB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Road Town",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "British Virgin Islands",
+    "population": 30117,
+    "population_year": 0
+  },
+  {
+    "alpha2": "VI",
+    "alpha3": "VIR",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Charlotte Amalie",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "United States Virgin Islands",
+    "population": 106291,
+    "population_year": 0
+  },
+  {
+    "alpha2": "VN",
+    "alpha3": "VNM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Hanoi",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "186205",
+    "gdp_year": 2014,
+    "name": "Vietnam",
+    "population": 93447601,
+    "population_year": 0
+  },
+  {
+    "alpha2": "VU",
+    "alpha3": "VUT",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Port Vila",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "815",
+    "gdp_year": 2014,
+    "name": "Vanuatu",
+    "population": 264652,
+    "population_year": 0
+  },
+  {
+    "alpha2": "WF",
+    "alpha3": "WLF",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Mata-Utu",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": 0,
+    "gdp_year": 0,
+    "name": "Wallis and Futuna",
+    "population": 0,
+    "population_year": 0
+  },
+  {
+    "alpha2": "WS",
+    "alpha3": "WSM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Apia",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "800",
+    "gdp_year": 2014,
+    "name": "Samoa",
+    "population": 193228,
+    "population_year": 0
+  },
+  {
+    "alpha2": "YE",
+    "alpha3": "YEM",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Sana'a",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "35955",
+    "gdp_year": 2014,
+    "name": "Yemen",
+    "population": 26832215,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ZA",
+    "alpha3": "ZAF",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Pretoria",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "350085",
+    "gdp_year": 2014,
+    "name": "South Africa",
+    "population": 54490406,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ZM",
+    "alpha3": "ZMB",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Lusaka",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "27066",
+    "gdp_year": 2014,
+    "name": "Zambia",
+    "population": 16211767,
+    "population_year": 0
+  },
+  {
+    "alpha2": "ZW",
+    "alpha3": "ZWE",
+    "area": 0,
+    "cities": [
+      {
+        "area": 0,
+        "gdp": 0,
+        "gdp_year": 0,
+        "is_capital": true,
+        "name": "Harare",
+        "population": 0,
+        "population_year": 0
+      }
+    ],
+    "gdp": "14197",
+    "gdp_year": 2014,
+    "name": "Zimbabwe",
+    "population": 15602751,
+    "population_year": 0
+  }
+]

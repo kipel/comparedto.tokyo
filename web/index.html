@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Statitics of Tokyo compared to the world.">
+    <meta name="author" content="Inko Elgezua Fernandez">
+    
+    <link rel="stylesheet" type="text/css" href="css/general.css"></style>
+    <title>World compared to Tokyo</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">World compared to Tokyo</a></h1>
+        <h3><a href="index.html">discover Tokyo through its numbers</a></h3>
+    </header>
+    <div>
+        <div class="container">
+            <div class="filters-column">
+                <div id="categories">
+                    <fieldset>
+                        <legend>Category</legend>
+                        <input type="radio" name="category" value="population" checked />Population <br />
+                        <input type="radio" name="category" value="GDP" />GDP <br />
+                        <input type="radio" name="category" value="transport" />Transport <br />
+                    </fieldset>
+                </div>
+                <div id="population" class="filters">
+                </div>
+                <div id="gdp" class="filters">
+                </div>
+                <div id="transport" class="filters">
+                    <input type="radio" name="transport" value="total" checked />Total commuters <br />
+                    <input type="radio" name="transport" value="shinjuku" />Shinjuku Station <br />
+                    <input type="radio" name="transport" value="ikebukuro" />Ikebukuro Station <br />
+                    <input type="radio" name="transport" value="shibuya" />Shibuya Station <br />
+                    <input type="radio" name="transport" value="yamanote" />Yamanote Line <br />
+                </div>
+                <div id="info">
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+            <div class="map-container">
+                <div id="map-legend"><p></p></div>
+                <div id="world-map"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>&copy; 2016 Data was taken from the following public <a href="sources.html">sources</a>. The formatted data files of this site are under a <a href="">Creative license</a>. Source code can be found at <a href="https://github.com/kipel/comparedto.tokyo.git">Github</a> under a <a href=""></a></footer>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["geochart"]});
+      google.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+/*
+        var data = google.visualization.arrayToDataTable([
+          ['Country'],
+          ['Germany'],
+          ['United States'],
+          ['Brazil'],
+          ['Canada'],
+          ['France'],
+          ['Russia']
+        ]);
+*/
+        var data = google.visualization.arrayToDataTable([['Country']]);
+        var options = {
+          //colorAxis: {colors: ['#00853f', 'black', '#e31b23']},
+          backgroundColor: '#81d4fa',
+          datalessRegionColor: '#f8bbd0',
+          //defaultColor: '#f5f5f5',
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('world-map'));
+
+        chart.draw(data, options);
+      }
+
+      $().ready(function() {
+        setupMap();
+
+      });
+
+    function setupMap() {
+
+    }
+
+    function updateLegend(legend) {
+        $("#map-lengend p").text(lengend);
+    }
+    </script>
+</body>
+</html>

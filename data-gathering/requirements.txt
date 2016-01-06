@@ -1,0 +1,5 @@
+beautifulsoup4 (4.4.1)
+pip (7.1.2)
+pycountry (1.18)
+setuptools (19.1.1)
+wheel (0.26.0)

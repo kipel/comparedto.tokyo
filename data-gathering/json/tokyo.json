@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Tokyo",
+    "population": 13482040,
+    "population_year": 2015,
+    "area": 2191,
+    "gdp": 1900000000,
+    "gdp_year": 2007,
+  },
+    {
+    "name": "23 Wards",
+    "population": 9214130,
+    "population_year": 2015,
+    "area": 623,
+    "gdp": 0,
+    "gdp_year": 0,
+  },
+  {
+    "name": "Greater Tokyo",
+    "population": 38001018,
+    "population_year": 2015,
+    "area": 14034,
+    "gdp": 1941000000,
+    "gdp_year": 2008,
+  },
+]
