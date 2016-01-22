@@ -1,0 +1,126 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-family: Helvetica, Arial;
+  font-size: 10pt;
+  font-weight: normal;
+  text-align: center; }
+
+header {
+  margin: 0px;
+  padding: 10px 10px 30px 15px;
+  background-color: red;
+  color: white;
+  text-align: left; }
+  header div:first-child {
+    float: left; }
+  header div:last-child {
+    float: right; }
+  header h1 {
+    margin: 0px;
+    font-size: 1.75em; }
+  header ul {
+    display: inline;
+    margin-left: 50px; }
+  header li:first-child {
+    margin-right: 20px; }
+  header li {
+    display: inline;
+    text-decoration: none; }
+
+a, a:hover, a:visited, a:active {
+  color: #FFF;
+  text-decoration: none; }
+
+p {
+  margin: 0px; }
+
+.container {
+  display: flex;
+  align-items: stretch;
+  position: absolute;
+  width: 100%;
+  font-size: 10pt; }
+
+.filters-column {
+  flex: 2;
+  padding: 10px;
+  background-color: #0F0;
+  text-align: left; }
+
+.col-3 {
+  width: 33%; }
+
+.col-2 {
+  width: 50%; }
+
+.filters {
+  width: 100%;
+  margin-bottom: 15px; }
+  .filters p {
+    margin-bottom: 7px; }
+
+.filter {
+  display: inline;
+  width: 50%;
+  background-color: #00F;
+  margin: 10px 0px;
+  padding: 5px;
+  border: 1px solid #000;
+  text-decoration: none;
+  text-align: center; }
+
+.filter:hover {
+  background-color: #F00;
+  border: 1px solid #FFF; }
+
+.selected {
+  background-color: #0F0;
+  border: 1px solid #FFF; }
+
+#subcategories {
+  visibility: hidden; }
+
+.map-column {
+  flex: 7; }
+
+.info {
+  display: none; }
+
+.emphasys {
+  font-weight: bold; }
+
+#map-legend {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 10;
+  min-width: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  text-align: right;
+  font-size: 12pt;
+  font-weight: bold; }
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #000;
+  color: #FFF;
+  font-size: 0.7em; }
+  footer p {
+    margin: 0px; }
+  footer a, footer a:hover, footer a:visited, footer a:active {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration-line: none; }
+
+/*# sourceMappingURL=style.css.map */
