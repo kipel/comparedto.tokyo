@@ -17,10 +17,10 @@
         <h1><a href="index.html">World compared to Tokyo</a></h1>
       </div>
       <div>
-        <ul>
+        <!--ul>
           <li><a href="about.html">About</a></li>
           <li><a href="sources.html">Sources</a></li>
-        </ul>
+        </ul-->
       </div>
     </header>
     <div class="container">
@@ -28,55 +28,86 @@
             <div id="tokyo-divisions" class="filters">
               <p class="caption">Area:</p>
               <div>
-                <a href="#" class="col-3 filter" data-value="23 Wards">23 Wards</a>
-                <a href="#" class="col-3 filter selected" data-value="Tokyo">Tokyo</a>
-                <a href="#" class="col-3 filter" data-value="Greater Tokyo">Greater Tokyo</a>
+                <button class="col-3 filter" data-value="23-wards">23 Wards</button>
+                <button class="col-3 filter selected"  data-value="tokyo">Tokyo</button>
+                <button class="col-3 filter" data-value="greater-tokyo">Greater Tokyo</button>
               </div>
             </div>
 
             <div id="categories" class="filters">
               <p class="caption">Category:</p>
               <div>
-                  <a href="#" class="filter selected" data-value="population">Population</a></li>
-                  <a href="#" class="filter" data-value="gdp">GDP</a></li>
-                  <a href="#" class="filter" data-value="transport">Transport</a>
+                  <button class="col-3 filter selected" data-value="population">Population</button>
+                  <button class="col-3 filter" data-value="gdp">GDP</button>
+                  <!--button class="col-3 filter" data-value="transport">Transport</button-->
               </div>
             </div>
 
-            <div id="subcategories" class="filters">
+            <!--div id="subcategories" class="filters">
               <p class="caption">Stations:</p>
               <div id="transport">
-                  <a href="#" class="filter selected" data-value="total">Total commuters</a>
-                  <a href="#" class="filter" data-value="shinjuku">Shinjuku Station</a>
-                  <a href="#" class="filter" data-value="ikebukuro" />Ikebukuro Station</a>
-                  <a href="#" class="filter" data-value="shibuya" />Shibuya Station</a>
-                  <a href="#" class="filter" data-value="yamanote" />Yamanote Line</a>
+                <div>
+                  <button class="col-2 filter selected" data-value="total">Total commuters</button>
+                  <button class="col-2 filter" data-value="yamanote">Yamanote Line</button>
+                </div>
+                <div>
+                  <button class="col-3 filter" data-value="shinjuku">Shinjuku</button>
+                  <button class="col-3 filter" data-value="ikebukuro">Ikebukuro</button>
+                  <button class="col-3 filter" data-value="shibuya">Shibuya</button>
+                </div>
               </div>
+            </div-->
+
+            <div id="map-legend">
+              <p></p>
             </div>
 
             <div class="info-container">
                 <div id="population-tokyo" class="info">
-                  <p>With its <span class="emphasys"></span> million habitants Tokyo is the second largest capital city in the world.</p>
+                  <p>With its <span class="emphasys">13.5</span> million habitants Tokyo is the second largest capital city in the world and largest in Japan.</p>
                 </div>
 
-                <div id="population-23wards" class="info">
-                  <p>The central  <span class="emphasys"></span> million habitants Tokyo is the second largest capital city in the world.</p>
+                <div id="population-23-wards" class="info">
+                  <p>The central area of Tokyo houses <span class="emphasys">9.2</span> million habitants Tokyo, second largest capital city in the world.</p>
                 </div>
 
-                <div id="population-greattokyo" class="info">
-                  <p>With its <span class="emphasys"></span> million habitants Great Tokyo is considered to be biggest the metropolis in the world. It consists of Tokyo, Yokohama, Chiba and Saitama.</p>
+                <div id="population-greater-tokyo" class="info">
+                  <p>With its <span class="emphasys">38</span> million habitants Greater Tokyo is considered to be biggest the metropolis in the world.</p>
+                </div>
+
+                <div id="gdp-23-wards" class="info">
+                  <p>Tokyo accounts for over a third of Japanese GDP.</p>
+                  <p>If it was a country, its (estimated) $1,900 billion GDP would be the <span class="emphasys">10th economy</span> in the world.</p>
                 </div>
 
                 <div id="gdp-tokyo" class="info">
-                  <p>Tokyo accounts for a third of Japanese GDP.</p>
+                  <p>Tokyo accounts for over a third of Japanese GDP.</p>
                   <p>If it was a country, its (estimated) $1,900 billion GDP would be the <span class="emphasys">10th economy</span> in the world.</p>
                 </div>
+
+                <div id="gdp-greater-tokyo" class="info">
+                  <p>Greater Tokyo accounts for over a third of the Japanese GDP with an estimated $1,940 billion GDP.</p>
+                </div>
+            </div>
+
+            <div id="tokyo-info-container">
+              <div id="info-23-wards" class="info-divisions">
+                  <p>Tokyo city was originally was formed by 23 wards (independent municipalities now) that make the core of the city. These include the well known Shinjuku or Shibuya for example.</p>
+                  <img src="images/23_wards.png" />
+              </div>
+              <div id="info-tokyo" class="info-divisions">
+                  <p>Tokyo consist of the 23 Special Wards, 26 cities, 5 towns and 8 villages that together form what it is called now Tokyo Metropolis.</p>
+                  <img src="images/tokyo_metro.png" />
+              </div>
+              <div id="info-greater-tokyo" class="info-divisions">
+                  <p>It is commonly called Greater Tokyo giant metropolis formed by: Tokyo itself, Yokohama, Kawasaki, Sagamihara, Chiba and Saitama.</p>
+                  <img src="images/greater_tokyo.png" />
+              </div>
             </div>
         </div>
 
         <div class="map-column">
           <div class="map-container">
-            <div id="map-legend"><p>Dummy legend</p></div>
             <div id="world-map"></div>
           </div>
         </div>
@@ -94,41 +125,41 @@
       var chart;
       var map_options;
 
-      $().load(function() {
-        
-      });
-
       $().ready(function() {
         setupMap();
+        updateInfo();
       });
 
       $("#tokyo-divisions div").on('click', function(e) {
           $("#tokyo-divisions div").children().each(function(i, child) {
-            $(child).attr("class", "filter");
+            $(child).attr("class", "col-3 filter");
           });
-          $(e.target).attr("class", "filter selected");
+          $(e.target).attr("class", "col-3 filter selected");
 
           updateInfo();
       });
 
       $("#categories div").on('click', function(e) {
           $("#categories div").children().each(function(i, child) {
-            $(child).attr("class", "filter");
+            $(child).attr("class", "col-3 filter");
           });
-          $(e.target).attr("class", "filter selected");
+          $(e.target).attr("class", "col-3 filter selected");
 
           updateInfo();
       });
 
     function setupMap() {
-      height = $(window).height() - $("header").height() - $("footer").height();
+      var width = $(document).width() * 0.73;
+      var height = $(document).height() - $("header").height() - $("footer").height() - 75;
       map_options = {
-          colorAxis: {colors: ['#00853f', '#00f000']},
-          backgroundColor: '#48b4d9',
+          keepAspectRatio: false,
+          colorAxis: {colors: ['#00853f', '#00f000'], values: [0, 100]},
+          backgroundColor: '#ffffff',
           datalessRegionColor: '#C7CED1',
           defaultColor: '#C7CED1',
-          'height': 600,
-        }; //#81d4f0',
+          width: width,
+          height: height,
+        };
 
       chart = new google.visualization.GeoChart(document.getElementById('world-map'));
 
@@ -138,18 +169,24 @@
     function updateInfo() {
       hideSubcategories();
       hideInfo();
+      hideDivisionInfo();
       
       var value = $("#categories .selected").data("value");
       var division = $("#tokyo-divisions .selected").data("value");
 
       filterMap(value, division);
-      updateLegend(legends[value] + division);
+
+      var pretty_name = prettify(division);
+
+      updateLegend(legends[value] + pretty_name);
       showSubcategory(value);
-      showInfo(value);
+      showInfo(value, division);
+      showDivisionInfo(division);
     }
 
     function filterMap(value, division) {
-      var countries = [['Countries', 'Percentage']];
+      var countries = [['Countries', 
+                      '% with respect to ' + prettify(division)]];
 
       if (value === "transport") {
         var filtered_countries = [['Countries']];
@@ -173,18 +210,18 @@
 
     function showSubcategory(value) {
       if (value === "transport") {
-        $("#transport").css("visibility", "visible");
+        $("#transport").css("display", "block");
       }
     }
 
     function hideSubcategories() {
       $(".subcategories").children().each(function(i, child) {
-        $(child).css("visibility", "hidden");
+        $(child).css("display", "none");
       });
     }
 
-    function showInfo(value) {
-      $("#" + value + "-tokyo").css("display", "block");
+    function showInfo(value, division) {
+      $("#" + value + "-" + division).css("display", "block");
     }
 
     function hideInfo() {
@@ -193,26 +230,46 @@
       });
     }
 
+    function showDivisionInfo(division) {
+      $("#info-" + division).css("display", "block");
+    }
+
+    function hideDivisionInfo() {
+      $("#tokyo-info-container").children().each(function(i, child) {
+        $(child).css("display", "none");
+      });
+    }
+
     function updateLegend(legend) {
-        $("#map-legend p").text(legend);
+        $("#map-legend p").html('<span class="emphasys">Legend: </span>' + legend);
+    }
+
+    function prettify(division) {
+      if (division === "23-wards") {
+        return "23 Wards";
+      }
+      else if (division === "greater-tokyo") {
+        return "Greater Tokyo";
+      }
+        return "Tokyo";
     }
 
     var tokyo = {
-           "Tokyo":  {
+          "tokyo":  {
               "population": 13482040,
               "population_year": 2015,
               "area": 2191,
               "gdp": 1900000,
               "gdp_year": 2007,
             },
-              "23 Wards": {
+          "23-wards": {
                 "population": 9214130,
                 "population_year": 2015,
                 "area": 623,
                 "gdp": 1900000,
                 "gdp_year": 0,
               },
-                "Greater Tokyo": {
+          "greater-tokyo": {
                     "population": 38001018,
                     "population_year": 2015,
                     "area": 14034,

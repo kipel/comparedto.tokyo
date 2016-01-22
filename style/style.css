@@ -10,8 +10,8 @@ body {
 header {
   margin: 0px;
   padding: 10px 10px 30px 15px;
-  background-color: red;
-  color: white;
+  background-color: #000;
+  color: #000;
   text-align: left; }
   header div:first-child {
     float: left; }
@@ -37,35 +37,34 @@ p {
   margin: 0px; }
 
 .container {
-  display: flex;
-  align-items: stretch;
-  position: absolute;
+  height: 100%;
+  overflow: scroll;
   width: 100%;
   font-size: 10pt; }
 
 .filters-column {
-  flex: 2;
+  float: left;
+  width: 25%;
   padding: 10px;
-  background-color: #0F0;
+  border-right: 1px solid #000;
   text-align: left; }
 
 .col-3 {
-  width: 33%; }
+  width: 32%; }
 
 .col-2 {
-  width: 50%; }
+  width: 49%; }
 
 .filters {
   width: 100%;
   margin-bottom: 15px; }
   .filters p {
-    margin-bottom: 7px; }
+    margin-bottom: 5px; }
 
 .filter {
   display: inline;
-  width: 50%;
-  background-color: #00F;
-  margin: 10px 0px;
+  background-color: #C9C6BF;
+  color: #000;
   padding: 5px;
   border: 1px solid #000;
   text-decoration: none;
@@ -73,42 +72,44 @@ p {
 
 .filter:hover {
   background-color: #F00;
-  border: 1px solid #FFF; }
+  border: 1px solid #000;
+  color: #FFF; }
 
 .selected {
-  background-color: #0F0;
-  border: 1px solid #FFF; }
+  background-color: #29DB23;
+  border: 1px solid #EDA324; }
 
 #subcategories {
-  visibility: hidden; }
-
-.map-column {
-  flex: 7; }
-
-.info {
   display: none; }
 
-.emphasys {
-  font-weight: bold; }
+.map-column {
+  float: left; }
+
+.info {
+  display: none;
+  margin-bottom: 20px; }
 
 #map-legend {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  z-index: 10;
-  min-width: 150px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #000;
-  text-align: right;
-  font-size: 12pt;
+  margin: 20px 0px;
+  text-align: left; }
+
+.info-divisions {
+  display: none;
+  margin-bottom: 5px;
+  text-align: center; }
+  .info-divisions p {
+    text-align: left; }
+  .info-divisions img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; }
+
+.emphasys {
   font-weight: bold; }
 
 footer {
   position: absolute;
   bottom: 0px;
-  left: 0px;
   width: 100%;
   margin: 0px;
   padding-top: 5px;
@@ -119,7 +120,6 @@ footer {
   footer p {
     margin: 0px; }
   footer a, footer a:hover, footer a:visited, footer a:active {
-    color: #FFF;
     font-weight: bold;
     text-decoration-line: none; }
 

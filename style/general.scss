@@ -11,8 +11,8 @@ body {
 header {
     margin: 0px;
     padding: 10px 10px 30px 15px;
-    background-color: red;
-    color: white;
+    background-color: $black;
+    color: $black;
     text-align: left;
 
     div:first-child {
@@ -53,26 +53,26 @@ p {
 }
 
 .container {
-    display: flex;
-    align-items: stretch;
-    position: absolute;
+    height: 100%;
+    overflow: scroll;
     width: 100%;
     font-size: 10pt;
 }
 
 .filters-column {
-    flex: 2;
+    float: left;
+    width: 25%;
     padding: 10px;
-    background-color: #0F0;
+    border-right: 1px solid $black;
     text-align: left;
 }
 
 .col-3 {
-    width: 33%;
+    width: 32%;
 }
 
 .col-2 {
-    width: 50%;
+    width: 49%;
 }
 
 .filters {
@@ -80,15 +80,14 @@ p {
     margin-bottom: 15px;
 
     p {
-        margin-bottom: 7px;
+        margin-bottom: 5px;
     }
 }
 
 .filter {
     display: inline;
-    width: 50%;
     background-color: $unselected;
-    margin: 10px 0px;
+    color: $black;
     padding: 5px;
     border: 1px solid $black;
     text-decoration: none;
@@ -97,53 +96,56 @@ p {
 
 .filter:hover {
     background-color: $over;
-    border: 1px solid $white;
+    border: 1px solid $black;
+    color: $white;
 }
 
 .selected {
     background-color: $selected;
-    border: 1px solid $white;
+    border: 1px solid $orange;
 }
 
 #subcategories {
-    visibility: hidden;
+    display: none;
 }
 
 .map-column {
-    flex: 7;
+    float: left;
 }
 
 .info {
     display: none;
+    margin-bottom: 20px;
+}
+
+#map-legend {
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.info-divisions {
+    display: none;
+    margin-bottom: 5px;
+    text-align: center;
+
+    p {
+        text-align: left;
+    }
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
 }
 
 .emphasys {
     font-weight: bold;
 }
 
-#map-legend {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    z-index: 10;
-    min-width: 150px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: $white-50;
-    color: $black;
-    text-align: right;
-    font-size: 12pt;
-    font-weight: bold;
-}
-
-#world-map {
-
-}
-
 footer {
     position: absolute;
     bottom: 0px;
-    left: 0px;
     width: 100%;
     margin: 0px;
     padding-top: 5px;
@@ -157,7 +159,6 @@ footer {
     }
 
     a, a:hover, a:visited, a:active {
-        color: $white;
         font-weight: bold;
         text-decoration-line: none;
     }
