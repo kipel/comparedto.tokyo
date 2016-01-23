@@ -131,7 +131,7 @@ def load_city_population(path, cities_list, verbose=False):
         population = []
         previous_city = ""
         for city in cities:
-            city_name = city["City"].lower()
+            city_name = common_city_name(city["City"].lower())
             if (city_name in cities_list and
                     city["Sex"].lower() == "both sexes" and
                     previous_city != city_name):
@@ -152,6 +152,51 @@ def load_city_population(path, cities_list, verbose=False):
             print(set(cities_list) - set(cities_listed))
 
     return dict(population)
+
+
+def common_city_name(city):
+    from collections import defaultdict
+    '''
+        Returns the common city name.
+        @params: Country name used by the UN Data for cities population.
+    '''
+
+    common = defaultdict(lambda: city)
+
+    common["athinai"] = "athens"
+    common["bogota, d.c."] = "bogotá"
+    common["noumea"] = "nouméa"
+    common["moskva"] = "moscow"
+    common["st. helier"] = "saint helier"
+    common["cuidad de guatemala"] = "guatemala city"
+    common["thorshavn"] = "tórshavn"
+    common["la habana"] = "havana"
+    common["meta-utu"] = "mata-utu"
+    common["yaounde"] = "yaoundé"
+    common["luxembourg-ville"] = "luxembourg"
+    common["lisboa"] = "lisbon"
+    common["asuncion"] = "asunción"
+    common["bruxelles (brussel)"] = "brussels"
+    common["kobenhavn"] = "copenhagen"
+    common["beograd (belgrade)"] = "belgrade"
+    common["tarawa"] = "south tarawa"
+    common["sao tome"] = "são tomé"
+    common["bucuresti"] = "bucharest"
+    common["san jose"] = "san josé"
+    common["nay pyi taw"] = "naypyidaw"
+    common["chisinau (kishinev)"] = "chișinău"
+    common["wien"] = "vienna"
+    common["warszawa"] = "warsaw"
+    common["ulaanbaatar"] = "ulan bator"
+    common["brasilia"] = "brasília"
+    common["berne"] = "bern"
+    common["mexico, ciudad de"] = "mexico city"
+    common["praha"] = "prague"
+    common["roma"] = "rome"
+    common["beijing (peking)"] = "beijing"
+    common["washington (dc)"] = "washington d.c."
+
+    return common[city]
 
 
 def loadGdp(path):
