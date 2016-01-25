@@ -81,6 +81,8 @@ p {
 
 #subcategories {
   display: none; }
+  #subcategories div {
+    margin-bottom: 5px; }
 
 .map-column {
   float: left; }
