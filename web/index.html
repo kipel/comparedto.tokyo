@@ -201,7 +201,7 @@
       hideDivisionInfo();
       
       var value = $("#categories .selected").data("value");
-      console.log(value);
+
       if (value === "transport") {
         var division = $("#subcategories .selected").data("value");
         updateLegend(legends[value + "-" + division]);
@@ -210,7 +210,6 @@
         var pretty_name = prettify(division);
         updateLegend(legends[value] + pretty_name);
       }
-      console.log(division);
 
       filterMap(value, division);
 
@@ -220,9 +219,9 @@
     }
 
     function filterMap(value, division) {
-      var countries = [['Countries', 
-                      '% with respect to ' + prettify(division)]];
-
+      var countries = [['Country',
+                        prettify(value),
+                        '% with respect to ' + prettify(division)]];
       if (value === "transport") {
           world.filter(function(obj) {
             if (division === "total") {
@@ -233,7 +232,7 @@
 
             if (data_value > 0 && data_value < tokyo[value][division]) {
               var percentage = parseFloat((100 * data_value / tokyo[value][division]).toFixed(2));
-              this.push([obj.name, percentage]);    
+              this.push([obj.name, data_value, percentage]);    
             }
           }, countries);
       }
@@ -241,7 +240,7 @@
         world.filter(function(obj) {
           if (obj[value] < tokyo[division][value]) {
             var percentage = parseFloat((100 * obj[value] / tokyo[division][value]).toFixed(2));
-            this.push([obj.name, percentage]);    
+            this.push([obj.name, obj[value], percentage]);    
           }
         }, countries);
       }
@@ -292,13 +291,14 @@
     }
 
     function prettify(division) {
-      if (division === "23-wards") {
-        return "23 Wards";
-      }
-      else if (division === "greater-tokyo") {
-        return "Greater Tokyo";
-      }
-        return "Tokyo";
+      pretty = {"23-wards" : "23 Wards",
+                "greater-tokyo" : "Greater Tokyo",
+                "tokyo" : "Tokyo",
+                "population" : "Population",
+                "gdp" : "GDP ($ millions)",
+                "transport" : "Population"};
+
+        return pretty[division];
     }
 
     var tokyo = {
