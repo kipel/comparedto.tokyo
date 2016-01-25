@@ -220,8 +220,8 @@
 
     function filterMap(value, division) {
       var countries = [['Country',
-                        prettify(value),
-                        '% with respect to ' + prettify(division)]];
+                        '% with respect to ' + prettify(division),
+                        prettify(value)]];
       if (value === "transport") {
           world.filter(function(obj) {
             if (division === "total") {
@@ -232,7 +232,7 @@
 
             if (data_value > 0 && data_value < tokyo[value][division]) {
               var percentage = parseFloat((100 * data_value / tokyo[value][division]).toFixed(2));
-              this.push([obj.name, data_value, percentage]);    
+              this.push([obj.name, percentage, data_value]);    
             }
           }, countries);
       }
@@ -240,7 +240,7 @@
         world.filter(function(obj) {
           if (obj[value] < tokyo[division][value]) {
             var percentage = parseFloat((100 * obj[value] / tokyo[division][value]).toFixed(2));
-            this.push([obj.name, obj[value], percentage]);    
+            this.push([obj.name, percentage, obj[value]]);    
           }
         }, countries);
       }
