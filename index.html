@@ -39,11 +39,11 @@
               <div>
                   <button class="col-3 filter selected" data-value="population">Population</button>
                   <button class="col-3 filter" data-value="gdp">GDP</button>
-                  <!--button class="col-3 filter" data-value="transport">Transport</button-->
+                  <button class="col-3 filter" data-value="transport">Transport</button>
               </div>
             </div>
 
-            <!--div id="subcategories" class="filters">
+            <div id="subcategories" class="filters">
               <p class="caption">Stations:</p>
               <div id="transport">
                 <div>
@@ -56,7 +56,7 @@
                   <button class="col-3 filter" data-value="shibuya">Shibuya</button>
                 </div>
               </div>
-            </div-->
+            </div>
 
             <div id="map-legend">
               <p></p>
@@ -87,6 +87,26 @@
 
                 <div id="gdp-greater-tokyo" class="info">
                   <p>Greater Tokyo accounts for over a third of the Japanese GDP with an estimated $1,940 billion GDP.</p>
+                </div>
+
+                <div id="transport-total" class="info">
+                  <p>Everyday a staggering 37 million people ride any of the 121 train lines within Tokyo and Greater Tokyo.</p>
+                </div>
+
+                <div id="transport-yamanote" class="info">
+                  <p>The Yamanote Line is the most iconic line in Tokyo. It is a circular line that connectst the major areas in Tokyo and transports 3.7 million people per day.</p>
+                </div>
+
+                <div id="transport-shinjuku" class="info">
+                  <p>Shinjuku Station is the busiest station in the world with 3.7 million unique riders going through it.</p>
+                </div>
+
+                <div id="transport-ikebukuro" class="info">
+                  <p>Second busiest station with 2.7 million people, Ikebukuro is know as the little Shinjuku.</p>
+                </div>
+
+                <div id="transport-shibuya" class="info">
+                  <p>One of the most popular areas in Tokyo and major exchanger, Shibuya station sees 2.2 million people crossing its gates everyday.</p>
                 </div>
             </div>
 
@@ -148,6 +168,15 @@
           updateInfo();
       });
 
+      $("#subcategories div").on('click', function(e) {
+          $("#subcategories div").children().each(function(i, child) {
+            $(child).attr("class", "col-3 filter");
+          });
+          $(e.target).attr("class", "col-3 filter selected");
+
+          updateInfo();
+      });
+
     function setupMap() {
       var width = $(document).width() * 0.73;
       var height = $(document).height() - $("header").height() - $("footer").height() - 75;
@@ -172,13 +201,19 @@
       hideDivisionInfo();
       
       var value = $("#categories .selected").data("value");
-      var division = $("#tokyo-divisions .selected").data("value");
+      console.log(value);
+      if (value === "transport") {
+        var division = $("#subcategories .selected").data("value");
+        updateLegend(legends[value + "-" + division]);
+      } else {
+        var division = $("#tokyo-divisions .selected").data("value");
+        var pretty_name = prettify(division);
+        updateLegend(legends[value] + pretty_name);
+      }
+      console.log(division);
 
       filterMap(value, division);
 
-      var pretty_name = prettify(division);
-
-      updateLegend(legends[value] + pretty_name);
       showSubcategory(value);
       showInfo(value, division);
       showDivisionInfo(division);
@@ -189,7 +224,18 @@
                       '% with respect to ' + prettify(division)]];
 
       if (value === "transport") {
-        var filtered_countries = [['Countries']];
+          world.filter(function(obj) {
+            if (division === "total") {
+              var data_value = obj["population"];
+            } else {
+              var data_value = obj["capital"]["population"];
+            }
+
+            if (data_value > 0 && data_value < tokyo[value][division]) {
+              var percentage = parseFloat((100 * data_value / tokyo[value][division]).toFixed(2));
+              this.push([obj.name, percentage]);    
+            }
+          }, countries);
       }
       else {
         world.filter(function(obj) {
@@ -210,14 +256,15 @@
 
     function showSubcategory(value) {
       if (value === "transport") {
-        $("#transport").css("display", "block");
+        $("#subcategories").css("display", "block");
       }
     }
 
     function hideSubcategories() {
-      $(".subcategories").children().each(function(i, child) {
-        $(child).css("display", "none");
-      });
+      //$(".subcategories").children().each(function(i, child) {
+      //  $(child).css("display", "none");
+      //});
+      $(".subcategories").css("display", "none");
     }
 
     function showInfo(value, division) {
@@ -276,14 +323,22 @@
                     "gdp": 1941000,
                     "gdp_year": 2008,
                     },
+            "transport" : {
+                  "total": 37049181,
+                  "yamanote": 3680000,
+                  "shinjuku": 3640000,
+                  "ikebukuro": 2710000,
+                  "shibuya": 2180000,
+            }
         };
     var legends = {
                     "population": "Countries with smaller population than ",
                     "gdp": "Countries with smaller GDP ($ millions) than ",
-                    "transport-all": "Countries with smaller population than ",
-                    "transport-shinjuku": "Countries with capital smaller than daily commuters in Shinjuku Station",
-                    "transport-ikebukuro": "Countries with capital smaller than daily commuters in Ikebukuro Station",
-                    "transport-shibuya": "Countries with capital smaller than daily commuters in Shibuya Station",
+                    "transport-total": "Countries with smaller population than daily train raiders in Greater Tokyo.",
+                    "transport-yamanote": "Countries with capital smaller than daily commuters in the Yamanote line.",
+                    "transport-shinjuku": "Countries with capital smaller than daily commuters in Shinjuku Station.",
+                    "transport-ikebukuro": "Countries with capital smaller than daily commuters in Ikebukuro Station.",
+                    "transport-shibuya": "Countries with capital smaller than daily commuters in Shibuya Station.",
                   };
 
     var world = [
@@ -582,8 +637,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Vienna",
-      "population": 0,
-      "population_year": 0
+      "population": 1741246,
+      "population_year": 2013
     },
     "gdp": 436888,
     "gdp_year": 2014,
@@ -639,8 +694,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Brussels",
-      "population": 0,
-      "population_year": 0
+      "population": 177307,
+      "population_year": 2013
     },
     "gdp": 531547,
     "gdp_year": 2014,
@@ -886,8 +941,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Bras\u00edlia",
-      "population": 0,
-      "population_year": 0
+      "population": 2481272,
+      "population_year": 2012
     },
     "gdp": 2346076,
     "gdp_year": 2014,
@@ -1057,8 +1112,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Bern",
-      "population": 0,
-      "population_year": 0
+      "population": 126598,
+      "population_year": 2013
     },
     "gdp": 701037,
     "gdp_year": 2014,
@@ -1095,8 +1150,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Beijing",
-      "population": 0,
-      "population_year": 0
+      "population": 11509595,
+      "population_year": 2002
     },
     "gdp": 10354832,
     "gdp_year": 2014,
@@ -1133,8 +1188,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Yaound\u00e9",
-      "population": 0,
-      "population_year": 0
+      "population": 1817524,
+      "population_year": 2010
     },
     "gdp": 32051,
     "gdp_year": 2014,
@@ -1209,8 +1264,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Bogot\u00e1",
-      "population": 0,
-      "population_year": 0
+      "population": 6763325,
+      "population_year": 2008
     },
     "gdp": 377740,
     "gdp_year": 2014,
@@ -1266,8 +1321,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "San Jos\u00e9",
-      "population": 0,
-      "population_year": 0
+      "population": 288054,
+      "population_year": 2014
     },
     "gdp": 49553,
     "gdp_year": 2014,
@@ -1285,8 +1340,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Havana",
-      "population": 0,
-      "population_year": 0
+      "population": 2105291,
+      "population_year": 2014
     },
     "gdp": 77150,
     "gdp_year": 2014,
@@ -1380,8 +1435,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Prague",
-      "population": 0,
-      "population_year": 0
+      "population": 1246780,
+      "population_year": 2013
     },
     "gdp": 205270,
     "gdp_year": 2014,
@@ -1456,8 +1511,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Copenhagen",
-      "population": 0,
-      "population_year": 0
+      "population": 562379,
+      "population_year": 2013
     },
     "gdp": 342362,
     "gdp_year": 2014,
@@ -1722,8 +1777,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "T\u00f3rshavn",
-      "population": 0,
-      "population_year": 0
+      "population": 17624,
+      "population_year": 2008
     },
     "gdp": 2613,
     "gdp_year": 2014,
@@ -1969,8 +2024,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Athens",
-      "population": 0,
-      "population_year": 0
+      "population": 664046,
+      "population_year": 2014
     },
     "gdp": 235574,
     "gdp_year": 2014,
@@ -2026,8 +2081,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Guatemala City",
-      "population": 0,
-      "population_year": 0
+      "population": 1022001,
+      "population_year": 2001
     },
     "gdp": 58827,
     "gdp_year": 2014,
@@ -2387,8 +2442,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Rome",
-      "population": 0,
-      "population_year": 0
+      "population": 2626553,
+      "population_year": 2013
     },
     "gdp": 2141161,
     "gdp_year": 2014,
@@ -2425,8 +2480,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Saint Helier",
-      "population": 0,
-      "population_year": 0
+      "population": 28310,
+      "population_year": 2008
     },
     "gdp": 0,
     "gdp_year": 0,
@@ -2558,8 +2613,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "South Tarawa",
-      "population": 0,
-      "population_year": 0
+      "population": 40311,
+      "population_year": 2013
     },
     "gdp": 167,
     "gdp_year": 2014,
@@ -2824,8 +2879,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Luxembourg",
-      "population": 0,
-      "population_year": 0
+      "population": 103641,
+      "population_year": 2013
     },
     "gdp": 64874,
     "gdp_year": 2014,
@@ -2938,8 +2993,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Chi\u0219in\u0103u",
-      "population": 0,
-      "population_year": 0
+      "population": 669694,
+      "population_year": 2013
     },
     "gdp": 7962,
     "gdp_year": 2014,
@@ -2995,8 +3050,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Mexico City",
-      "population": 0,
-      "population_year": 0
+      "population": 8851080,
+      "population_year": 2011
     },
     "gdp": 1294690,
     "gdp_year": 2014,
@@ -3090,8 +3145,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Naypyidaw",
-      "population": 0,
-      "population_year": 0
+      "population": 1158367,
+      "population_year": 2014
     },
     "gdp": 64330,
     "gdp_year": 2014,
@@ -3128,8 +3183,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Ulan Bator",
-      "population": 0,
-      "population_year": 0
+      "population": 1345086,
+      "population_year": 2014
     },
     "gdp": 12016,
     "gdp_year": 2014,
@@ -3337,8 +3392,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Noum\u00e9a",
-      "population": 0,
-      "population_year": 0
+      "population": 97579,
+      "population_year": 2014
     },
     "gdp": 0,
     "gdp_year": 0,
@@ -3698,8 +3753,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Warsaw",
-      "population": 0,
-      "population_year": 0
+      "population": 1711324,
+      "population_year": 2013
     },
     "gdp": 544967,
     "gdp_year": 2014,
@@ -3755,8 +3810,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Lisbon",
-      "population": 0,
-      "population_year": 0
+      "population": 530847,
+      "population_year": 2013
     },
     "gdp": 230117,
     "gdp_year": 2014,
@@ -3774,8 +3829,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Asunci\u00f3n",
-      "population": 0,
-      "population_year": 0
+      "population": 513399,
+      "population_year": 2002
     },
     "gdp": 30881,
     "gdp_year": 2014,
@@ -3869,8 +3924,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Bucharest",
-      "population": 0,
-      "population_year": 0
+      "population": 1912515,
+      "population_year": 2013
     },
     "gdp": 0,
     "gdp_year": 0,
@@ -3888,8 +3943,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Moscow",
-      "population": 0,
-      "population_year": 0
+      "population": 11918057,
+      "population_year": 2013
     },
     "gdp": 1860598,
     "gdp_year": 2014,
@@ -4154,8 +4209,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Belgrade",
-      "population": 0,
-      "population_year": 0
+      "population": 1350987,
+      "population_year": 2013
     },
     "gdp": 43866,
     "gdp_year": 2014,
@@ -4192,8 +4247,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "S\u00e3o Tom\u00e9",
-      "population": 0,
-      "population_year": 0
+      "population": 49957,
+      "population_year": 2005
     },
     "gdp": 337,
     "gdp_year": 2014,
@@ -4724,8 +4779,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Washington D.C.",
-      "population": 0,
-      "population_year": 0
+      "population": 632323,
+      "population_year": 2014
     },
     "gdp": 17419000,
     "gdp_year": 2014,
@@ -4895,8 +4950,8 @@
       "gdp_year": 0,
       "is_capital": true,
       "name": "Mata-Utu",
-      "population": 0,
-      "population_year": 0
+      "population": 1126,
+      "population_year": 2014
     },
     "gdp": 0,
     "gdp_year": 0,
