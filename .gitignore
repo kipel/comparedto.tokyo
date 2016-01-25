@@ -2,6 +2,7 @@
 datasets
 data-gathering/raw_data/
 data-gathering/json/
+style/*.map
 pics/
 # Byte-compiled / optimized / DLL files
 __pycache__/
