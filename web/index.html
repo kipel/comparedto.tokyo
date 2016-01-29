@@ -47,8 +47,9 @@
               <p class="caption">Stations:</p>
               <div id="transport">
                 <div>
-                  <button class="col-2 filter selected" data-value="total">Total commuters</button>
-                  <button class="col-2 filter" data-value="yamanote">Yamanote Line</button>
+                  <button class="col-3 filter selected" data-value="total">Total commuters</button>
+                  <button class="col-3 filter" data-value="train">Train</button>
+                  <button class="col-3 filter" data-value="yamanote">Yamanote Line</button>
                 </div>
                 <div>
                   <button class="col-3 filter" data-value="shinjuku">Shinjuku</button>
@@ -64,6 +65,22 @@
 
             <div class="info-container">
                 <div id="population-tokyo" class="info">
+                  <table>
+                    <th>
+                      <tr>
+                        <td></td>
+                        <td>23 Wards</td>
+                        <td>Tokyo</td>
+                        <td>Greater Tokyo</td>
+                      </tr>
+                    </th>
+                    <tr>
+                        <td>Population (millions)</td>
+                        <td>13.5</td>
+                        <td>9.2</td>
+                        <td>38</td>
+                      </tr>
+                  </table>
                   <p>With its <span class="emphasys">13.5</span> million habitants Tokyo is the second largest capital city in the world and largest in Japan.</p>
                 </div>
 
@@ -168,8 +185,8 @@
           updateInfo();
       });
 
-      $("#subcategories div").on('click', function(e) {
-          $("#subcategories div").children().each(function(i, child) {
+      $("#transport").on('click', function(e) {
+          $("#transport div").children().each(function(i, child) {
             $(child).attr("class", "col-3 filter");
           });
           $(e.target).attr("class", "col-3 filter selected");
@@ -260,10 +277,7 @@
     }
 
     function hideSubcategories() {
-      //$(".subcategories").children().each(function(i, child) {
-      //  $(child).css("display", "none");
-      //});
-      $(".subcategories").css("display", "none");
+      $("#subcategories").css("display", "none");
     }
 
     function showInfo(value, division) {
@@ -324,7 +338,8 @@
                     "gdp_year": 2008,
                     },
             "transport" : {
-                  "total": 37049181,
+                  "total": 40000000,
+                  "train": 37049181,
                   "yamanote": 3680000,
                   "shinjuku": 3640000,
                   "ikebukuro": 2710000,
@@ -334,7 +349,8 @@
     var legends = {
                     "population": "Countries with smaller population than ",
                     "gdp": "Countries with smaller GDP ($ millions) than ",
-                    "transport-total": "Countries with smaller population than daily train raiders in Greater Tokyo.",
+                    "transport-total": "Countries with smaller population than daily commuters in Greater Tokyo.",
+                    "transport-train": "Countries with smaller population than daily train raiders in Greater Tokyo.",
                     "transport-yamanote": "Countries with capital smaller than daily commuters in the Yamanote line.",
                     "transport-shinjuku": "Countries with capital smaller than daily commuters in Shinjuku Station.",
                     "transport-ikebukuro": "Countries with capital smaller than daily commuters in Ikebukuro Station.",
