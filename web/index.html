@@ -25,15 +25,6 @@
     </header>
     <div class="container">
         <div class="filters-column">
-            <div id="tokyo-divisions" class="filters">
-              <p class="caption">Area:</p>
-              <div>
-                <button class="col-3 filter" data-value="23-wards">23 Wards</button>
-                <button class="col-3 filter selected"  data-value="tokyo">Tokyo</button>
-                <button class="col-3 filter" data-value="greater-tokyo">Greater Tokyo</button>
-              </div>
-            </div>
-
             <div id="categories" class="filters">
               <p class="caption">Category:</p>
               <div>
@@ -43,9 +34,22 @@
               </div>
             </div>
 
+            <div id="map-legend">
+              <p></p>
+            </div>
+
             <div id="subcategories" class="filters">
-              <p class="caption">Stations:</p>
+              <div id="tokyo-divisions" class="filters">
+                <p class="caption">Area:</p>
+                <div>
+                  <button class="col-3 filter" data-value="23-wards">23 Wards</button>
+                  <button class="col-3 filter selected"  data-value="tokyo">Tokyo</button>
+                  <button class="col-3 filter" data-value="greater-tokyo">Greater Tokyo</button>
+                </div>
+              </div>
+
               <div id="transport">
+                <p class="caption">Commuters:</p>
                 <div>
                   <button class="col-3 filter selected" data-value="total">Total commuters</button>
                   <button class="col-3 filter" data-value="train">Train</button>
@@ -59,12 +63,8 @@
               </div>
             </div>
 
-            <div id="map-legend">
-              <p></p>
-            </div>
-
             <div class="info-container">
-                <div id="population-tokyo" class="info">
+                <div id="info-population" class="info">
                   <table>
                     <th>
                       <tr>
@@ -76,34 +76,16 @@
                     </th>
                     <tr>
                         <td>Population (millions)</td>
-                        <td>13.5</td>
-                        <td>9.2</td>
-                        <td>38</td>
+                        <td id="population-23-wards"><span>9.2</span></td>
+                        <td id="population-tokyo"><span class="emphasys-red">13.5</span></td>
+                        <td id="population-greater-tokyo"><span>38</span></td>
                       </tr>
                   </table>
-                  <p>With its <span class="emphasys">13.5</span> million habitants Tokyo is the second largest capital city in the world and largest in Japan.</p>
                 </div>
 
-                <div id="population-23-wards" class="info">
-                  <p>The central area of Tokyo houses <span class="emphasys">9.2</span> million habitants.</p>
-                </div>
-
-                <div id="population-greater-tokyo" class="info">
-                  <p>With its <span class="emphasys">38</span> million habitants Greater Tokyo is considered the biggest metropolis in the world.</p>
-                </div>
-
-                <div id="gdp-23-wards" class="info">
+                <div id="info-gdp" class="info">
                   <p>Tokyo accounts for over a third of Japanese GDP.</p>
                   <p>If it was a country, its (estimated) $1,900 billion GDP would be the <span class="emphasys">10th economy</span> in the world.</p>
-                </div>
-
-                <div id="gdp-tokyo" class="info">
-                  <p>Tokyo accounts for over a third of Japanese GDP.</p>
-                  <p>If it was a country, its (estimated) $1,900 billion GDP would be the <span class="emphasys">10th economy</span> in the world.</p>
-                </div>
-
-                <div id="gdp-greater-tokyo" class="info">
-                  <p>Greater Tokyo accounts for over a third of the Japanese GDP with an estimated $1,940 billion GDP.</p>
                 </div>
 
                 <div id="transport-total" class="info">
@@ -219,14 +201,19 @@
       
       var value = $("#categories .selected").data("value");
 
-      if (value === "transport") {
-        var division = $("#subcategories .selected").data("value");
+      if (value === "gdp") {
+        updateLegend(legends[value] + prettify("tokyo"));
+      }
+      else if (value === "transport") {
+        var division = $("#transport .selected").data("value");
         updateLegend(legends[value + "-" + division]);
-      } else {
+      }
+      else {
         var division = $("#tokyo-divisions .selected").data("value");
         var pretty_name = prettify(division);
         updateLegend(legends[value] + pretty_name);
       }
+      
 
       filterMap(value, division);
 
@@ -240,18 +227,18 @@
                         '% with respect to ' + prettify(division),
                         prettify(value)]];
       if (value === "transport") {
-          world.filter(function(obj) {
-            if (division === "total") {
-              var data_value = obj["population"];
-            } else {
-              var data_value = obj["capital"]["population"];
-            }
+        world.filter(function(obj) {
+          if (division === "total" || division === "train") {
+            var data_value = obj["population"];
+          } else {
+            var data_value = obj["capital"]["population"];
+          }
 
-            if (data_value > 0 && data_value < tokyo[value][division]) {
-              var percentage = parseFloat((100 * data_value / tokyo[value][division]).toFixed(2));
-              this.push([obj.name, percentage, data_value]);    
-            }
-          }, countries);
+          if (data_value > 0 && data_value < tokyo[value][division]) {
+            var percentage = parseFloat((100 * data_value / tokyo[value][division]).toFixed(2));
+            this.push([obj.name, percentage, data_value]);    
+          }
+        }, countries);
       }
       else {
         world.filter(function(obj) {
@@ -273,15 +260,32 @@
     function showSubcategory(value) {
       if (value === "transport") {
         $("#subcategories").css("display", "block");
+        $("#transport").css("display", "block");
+      }
+      else if (value === "population") {
+        $("#subcategories").css("display", "block");
+        $("#tokyo-divisions").css("display", "block");
       }
     }
 
     function hideSubcategories() {
       $("#subcategories").css("display", "none");
+      $("#subcategories").children().each(function(i, child) {
+        $(child).css("display", "none");
+      });
     }
 
     function showInfo(value, division) {
-      $("#" + value + "-" + division).css("display", "block");
+      if (value === "population") {
+        $("#info-population").css("display", "block");
+        $("#info-population span").each(function(i, e) {
+          $(e).attr("class", "");
+        });
+        $("#population-" + division +" span").attr("class", "emphasys-red");
+      } 
+      else{
+        $("#" + value + "-" + division).css("display", "block");
+      }
     }
 
     function hideInfo() {

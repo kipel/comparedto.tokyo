@@ -86,7 +86,7 @@ p {
 
 .filter {
     display: inline;
-    background-color: $unselected;
+    background-color: $unselected-50;
     color: $black;
     padding: 5px;
     border: 1px solid $black;
@@ -111,6 +111,15 @@ p {
     div {
         margin-bottom: 5px;
     }
+
+    table {
+        text-align: center;
+        border-right: 1px solid $black;
+
+        th {
+            border-bottom: 1px solid $black;
+        }
+    }
 }
 
 .map-column {
@@ -125,6 +134,7 @@ p {
 #map-legend {
     margin: 20px 0px;
     text-align: left;
+    font-size: 1.1em;
 }
 
 .info-divisions {
@@ -145,6 +155,11 @@ p {
 
 .emphasys {
     font-weight: bold;
+}
+
+.emphasys-red {
+    font-weight: bold;
+    color: $red;
 }
 
 footer {
