@@ -10,8 +10,8 @@ body {
 header {
   margin: 0px;
   padding: 10px 10px 30px 15px;
-  background-color: #000;
-  color: #000;
+  background-color: #26686E;
+  color: #FFF;
   text-align: left; }
   header div:first-child {
     float: left; }
@@ -19,6 +19,8 @@ header {
     float: right; }
   header h1 {
     margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 1.75em; }
   header ul {
     display: inline;
@@ -63,31 +65,26 @@ p {
 
 .filter {
   display: inline;
-  background-color: rgba(201, 198, 191, 0.5);
-  color: #000;
+  background-color: rgba(49, 107, 107, 0.5);
+  color: #FFF;
   padding: 5px;
-  border: 1px solid #000;
+  border: 0px;
   text-decoration: none;
   text-align: center; }
 
 .filter:hover {
   background-color: #F00;
-  border: 1px solid #000;
+  border: 0px;
   color: #FFF; }
 
 .selected {
-  background-color: #29DB23;
-  border: 1px solid #EDA324; }
+  background-color: #94BF23;
+  border: 0px; }
 
 #subcategories {
   display: none; }
   #subcategories div {
     margin-bottom: 5px; }
-  #subcategories table {
-    text-align: center;
-    border-right: 1px solid #000; }
-    #subcategories table th {
-      border-bottom: 1px solid #000; }
 
 .map-column {
   float: left; }
@@ -100,6 +97,19 @@ p {
   margin: 20px 0px;
   text-align: left;
   font-size: 1.1em; }
+
+#info-population {
+  text-align: center; }
+  #info-population table {
+    margin-left: auto;
+    margin-right: auto; }
+    #info-population table caption {
+      margin-bottom: 5px; }
+  #info-population td {
+    padding: 0px 5px;
+    border-right: 1px solid #000 !important; }
+  #info-population tr:first-child td {
+    border-bottom: 1px solid #000 !important; }
 
 .info-divisions {
   display: none;
@@ -126,7 +136,7 @@ footer {
   margin: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #000;
+  background-color: #26686E;
   color: #FFF;
   font-size: 0.7em; }
   footer p {
