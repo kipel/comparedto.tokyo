@@ -83,7 +83,7 @@
                   </table>
                 </div>
 
-                <div id="info-gdp" class="info">
+                <div id="gdp-tokyo" class="info">
                   <p>Tokyo accounts for over a third of Japanese GDP.</p>
                   <p>If it was a country, its (estimated) $1,900 billion GDP would be the <span class="emphasys">10th economy</span> in the world.</p>
                 </div>
@@ -149,7 +149,7 @@
         updateInfo();
       });
 
-      $("#tokyo-divisions div").on('click', function(e) {
+      $("#tokyo-divisions button").on('click', function(e) {
           $("#tokyo-divisions div").children().each(function(i, child) {
             $(child).attr("class", "col-3 filter");
           });
@@ -158,7 +158,7 @@
           updateInfo();
       });
 
-      $("#categories div").on('click', function(e) {
+      $("#categories button").on('click', function(e) {
           $("#categories div").children().each(function(i, child) {
             $(child).attr("class", "col-3 filter");
           });
@@ -167,7 +167,7 @@
           updateInfo();
       });
 
-      $("#transport").on('click', function(e) {
+      $("#transport button").on('click', function(e) {
           $("#transport div").children().each(function(i, child) {
             $(child).attr("class", "col-3 filter");
           });
@@ -200,16 +200,17 @@
       hideDivisionInfo();
       
       var value = $("#categories .selected").data("value");
+      var division = "tokyo";
 
       if (value === "gdp") {
         updateLegend(legends[value] + prettify("tokyo"));
       }
       else if (value === "transport") {
-        var division = $("#transport .selected").data("value");
+        division = $("#transport .selected").data("value");
         updateLegend(legends[value + "-" + division]);
       }
       else {
-        var division = $("#tokyo-divisions .selected").data("value");
+        division = $("#tokyo-divisions .selected").data("value");
         var pretty_name = prettify(division);
         updateLegend(legends[value] + pretty_name);
       }
@@ -224,7 +225,7 @@
 
     function filterMap(value, division) {
       var countries = [['Country',
-                        '% with respect to ' + prettify(division),
+                        '% w.r.t. ' + prettify(division),
                         prettify(value)]];
       if (value === "transport") {
         world.filter(function(obj) {
